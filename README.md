@@ -10,10 +10,9 @@ This application uses the OpenWeatherMap api to get the information..
 http package
 geolocator package
 convert package
-spinkit package
+spinkit package 
 alertDialog
 ListView.seperator
-
 
 ## Features:
 Uses the location from the device and show the current weather .
