@@ -1,0 +1,35 @@
+Column icine LisTile yerlestrimek
+LisTile ozellikleri: tileColor,shrinkWrap,reverse,scrollDirection
+Column'u ListView ile degistirmek
+ScrollBar widget kullanimi.. Scroll- ekranda goruntu kaydirmak
+Column(children:[
+Burada bizden istenen bir liste tipinde bir degisken yazmamizdir.Bu listeyi yukarda
+tanimlayip sonra buraya baglayabiliriz.
+])
+
+ONEMLI NOKTA: Diyelim ki bir veritabanindan veri cektim. Bu veri liste tipinde olan ve icinde
+500 tane fazla eleman var. Ekranda ise 30 tanesini gosterebiliyoruz.Kullanici yukari cektigi zaman
+ekranin hafizasinda olussun sonra hafizadan silsin.Yukari ciktikca cihazin hafizasindan
+bosaltmamiz gerekiyor.Bu yontemi(ListView) kullanirsak hepsini cihazin hazifasina yukler
+Ama biz istiyoruz ki goruntuyu gelince yuklesin o zaman ListView.builder methodunu kullanmamiz gerekiyor.
+ListView.builder nasil calisir?
+Ozellikleri nelerdir: itemCount,
+itemBuilder bir fonksiyondur ve Widget dondurur, itemBuilder(context,index){return Widget}
+index her seferinde bir tane artiriyor.
+itemBuilder:(){
+return'den once
+List<String> =====>>>>>>List<Container> widget
+map fonksiyonu nasil calisir?
+return Widget olmasi gerekiyor.}
+Ama Stringden olusan bir listeyi buraya baglayabilir miyiz?
+ListView.seperated nasil calisir?
+Ozellikleri: separatedBuilder:(context,_){return Widget} bir widget ister
+Index parametresini kullanmadigim icin alt cizgi yazdim.
+separatorBuilder(context, index){
+return Divider();
+}
+ListView'i sinirlamak icin ozellik:SizedBox'a benzeyen FrancionallySizedBox kullaniyoruz.
+FranctionallySizedBox(): heightFactor:0.3
+widthFactor:0.5 ekranin yarisini kapla
+ListView: scrollDirection:Axis.horizantal
+Divider yatayda calisir. verticalDivider dikeyde calisir.
