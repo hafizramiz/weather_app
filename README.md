@@ -10,6 +10,7 @@ The location can be get from the mobile GPS or you can choose a city name to get
 This application uses the OpenWeatherMap api to get the information..
 
 ## Used Technology
+async/await function
 
 http package
 
