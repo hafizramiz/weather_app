@@ -25,8 +25,10 @@ http package is used for making API requests to the News API. It provides a type
 
 ## Features:
 
-Uses the location from the device and show the current weather .
+Current Location Weather: Utilizes the device's GPS to display the current weather conditions based on the user's location.
 
-Fetches details from Openweater API.
+City-based Weather: Allows users to manually input a city name to retrieve weather updates for that location.
 
-Takes User Input of any City to Show the weather.
+OpenWeatherMap Integration: Fetches real-time weather details from the OpenWeatherMap API, ensuring accurate and up-to-date information.
+
+Feel free to contribute, report issues, or suggest enhancements. Happy coding! 🚀
