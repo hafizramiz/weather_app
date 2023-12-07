@@ -14,7 +14,7 @@ To run this app locally, follow these steps:
 
  
 ## Packages
-http : Used for making API requests to the OpenWeatherMap API. It provides a type-safe way to interact with RESTful APIs.
+http: Used for making API requests to the OpenWeatherMap API. It provides a type-safe way to interact with RESTful APIs.
 
 geolocator: Allows the app to retrieve the current location using the device's GPS.
 
@@ -25,11 +25,9 @@ http package is used for making API requests to the News API. It provides a type
 
 ## Features:
 
-Current Location Weather: Utilizes the device's GPS to display the current weather conditions based on the user's location.
-
-City-based Weather: Allows users to manually input a city name to retrieve weather updates for that location.
-
-OpenWeatherMap Integration: Fetches real-time weather details from the OpenWeatherMap API, ensuring accurate and up-to-date information.
+- **Current Location Weather:** Utilizes the device's GPS to display the current weather conditions based on the user's location.
+- **City-based Weather:** gAllows users to manually input a city name to retrieve weather updates for that location.
+- **OpenWeatherMap Integration:** Fetches real-time weather details from the OpenWeatherMap API, ensuring accurate and up-to-date information.
 
 ## 🤓 Author
 
