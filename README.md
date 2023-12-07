@@ -31,4 +31,13 @@ City-based Weather: Allows users to manually input a city name to retrieve weath
 
 OpenWeatherMap Integration: Fetches real-time weather details from the OpenWeatherMap API, ensuring accurate and up-to-date information.
 
-Feel free to contribute, report issues, or suggest enhancements. Happy coding! 🚀
+## 🤓 Author
+
+I'm Hafiz Ramiz, a passionate Mobile Developer with a love for Flutter. 
+Connect with me on [LinkedIn](https://www.linkedin.com/in/hafizramiz/) and [GitHub](https://github.com/hafizramiz).
+
+## 🌟 Show Your Support
+
+If you find this project interesting or helpful, consider giving it a star ⭐️. It means a lot!
+
+Happy coding! 🚀
