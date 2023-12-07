@@ -12,12 +12,13 @@ To run this app locally, follow these steps:
 3. Run the app: `flutter run`
 
 
-## Used Technology
-http package
+ 
+## Packages
+http : Used for making API requests to the OpenWeatherMap API. It provides a type-safe way to interact with RESTful APIs.
 
-geolocator package
+geolocator: Allows the app to retrieve the current location using the device's GPS.
 
-spinkit package 
+spinkit: Provides a set of loading indicators for a better user experience.
 
 ## API Requests 
 http package is used for making API requests to the News API. It provides a type-safe way to interact with RESTful APIs.
