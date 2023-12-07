@@ -7,7 +7,7 @@ An intuitive mobile application built with Flutter that provides real-time weath
 
 To run this app locally, follow these steps:
 
-1. Clone this repository: https://github.com/hafizramiz/weather_app.git
+1. Clone this repository: `https://github.com/hafizramiz/weather_app.git`
 2. Navigate to the project folder:  `cd your-repo`
 3. Run the app: `flutter run`
 
