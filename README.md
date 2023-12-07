@@ -1,28 +1,35 @@
 ## Weather App
 
-#An App to check the current weather condition based on your current location. It also allows user to check the weather of a city by name
-
-A Flutter project. android/ios mobile application to get the weather for a specific location. 
-
-The location can be get from the mobile GPS or you can choose a city name to get the weather information for.
+### Overview
+An intuitive mobile application built with Flutter that provides real-time weather updates. The Weather App fetches weather information based on your current location using GPS or allows you to manually enter a city name for updates.
 
 ## Getting Started
-This application uses the OpenWeatherMap api to get the information..
+To get started with the Weather App, follow these steps:
+
+Clone the repository:
+
+git clone https://github.com/your-username/weather-app.git
+Navigate to the project directory:
+
+
+cd weather-app
+Install dependencies:
+
+flutter pub get
+Run the app:
+
+flutter run
+
 
 ## Used Technology
-async/await function
-
 http package
 
 geolocator package
 
-convert package
-
 spinkit package 
 
-alertDialog
-
-ListView.seperator
+## API Requests 
+http package is used for making API requests to the News API. It provides a type-safe way to interact with RESTful APIs.
 
 ## Features:
 
