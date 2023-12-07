@@ -3,22 +3,13 @@
 ### Overview
 An intuitive mobile application built with Flutter that provides real-time weather updates. The Weather App fetches weather information based on your current location using GPS or allows you to manually enter a city name for updates.
 
-## Getting Started
-To get started with the Weather App, follow these steps:
+## 🚀 Get Started
 
-Clone the repository:
+To run this app locally, follow these steps:
 
-git clone https://github.com/your-username/weather-app.git
-Navigate to the project directory:
-
-
-cd weather-app
-Install dependencies:
-
-flutter pub get
-Run the app:
-
-flutter run
+1. Clone this repository: https://github.com/hafizramiz/weather_app.git
+2. Navigate to the project folder:  `cd your-repo`
+3. Run the app: `flutter run`
 
 
 ## Used Technology
