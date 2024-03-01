@@ -26,7 +26,7 @@ class _SearchPageState extends State<SearchPage> {
               ),
             ),
             actions: [
-              FlatButton(
+              ElevatedButton(
                   onPressed: () {
                     Navigator.pop(context);
                   },
@@ -50,15 +50,19 @@ class _SearchPageState extends State<SearchPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             //Burada AutoComplete widgeti kullanacagim.
-            TextField(textCapitalization: TextCapitalization.sentences,
-              style: TextStyle(fontSize: 40, color: Colors.white),
-              onChanged:
-                  (newValue) {
-                textFieldValue = newValue;
-              },
-              decoration: InputDecoration(
-                hintText: "Şehir giriniz",
-                hintStyle: TextStyle(fontSize: 20, color: Colors.white),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextField(textCapitalization: TextCapitalization.sentences,
+                style: TextStyle(fontSize: 40, color: Colors.white),
+                onChanged:
+                    (newValue) {
+                  textFieldValue = newValue;
+                },
+                decoration: InputDecoration(
+
+                  hintText: "Şehir giriniz",
+                  hintStyle: TextStyle(fontSize: 20, color: Colors.white),
+                ),
               ),
             ),
             SizedBox(height: 10,),
@@ -76,7 +80,7 @@ class _SearchPageState extends State<SearchPage> {
                   style: TextStyle(fontSize: 27, color: Colors.white),
                 ),
               ),
-            FlatButton(
+            ElevatedButton(
                 onPressed: () {
                   setState(() {
                     if (textFieldValue.isEmpty) {

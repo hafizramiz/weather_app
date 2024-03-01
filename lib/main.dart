@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
             title: Text("Http Hatasi:"),
             content: SingleChildScrollView(
               child: ListBody(
-                children: [Text("Lutfen gecerli bir sehir ismi girin")],
+                children: [Text("Lutfen gecerli bir şehir ismi girin")],
               ),
             ),
             actions: [
